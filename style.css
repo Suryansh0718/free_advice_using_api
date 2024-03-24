@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding: 0;
+}
+main{
+    background-color: rgb(214, 88, 214);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: rgb(38, 12, 38);
+    color: rgb(113, 241, 250);
+    height: 30%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+h3{
+    color: chartreuse;
+    font-size: 25px;
+    padding: 25px;
+}
+.btn{
+    color: white;
+    background-color: rgb(214, 1, 175);
+    padding: 20px;
+    font-size: 17px;
+    border-radius: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+@media only screen and (min-width: 300px) and (max-width: 1200px) {
+    .container{
+        height:80%;
+        width: 80%;
+    }
+  }
